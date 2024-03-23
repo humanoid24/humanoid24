@@ -1,0 +1,48 @@
+https://m.media-amazon.com/images/M/MV5BYjY4MDU2YjMtNzY1MC00ODg1LWIwMzYtMWE5YTA3YTI4ZjMxXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg
+https://upload.wikimedia.org/wikipedia/id/9/94/NarutoCoverTankobon1.jpg
+https://image.tmdb.org/t/p/w1280/3nxQRGb72TJx6eSGArmaLYyCcHc.jpg
+https://pic-bstarstatic.akamaized.net/ugc/eb83a5d5cea3e09099b93747e0316d4d.jpeg
+https://static.hidive.com/titles/GBS/GBS_01_KEY_1200x450.jpg
+https://upload.wikimedia.org/wikipedia/id/4/46/Jujutsu_kaisen.jpg
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HzMSP57VVZY?si=KDJJxPmXybvidsrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    <div class="grid-container">
+        <div class="grid-item">
+            <a href="#">
+                <img src="https://pic-bstarstatic.akamaized.net/ugc/eb83a5d5cea3e09099b93747e0316d4d.jpeg" alt="Naruto Shippuden"></a>
+                <a class="linkvideo" href="#">Naruto Shippuden</a>
+        </div>
+        https://www.facebook.com/100080755958696/videos/5487154684744764/
+        <div class="grid-item">
+            <a href="#">
+                <img src="https://image.tmdb.org/t/p/w1280/3nxQRGb72TJx6eSGArmaLYyCcHc.jpg" alt="Sengoku Basara Last Party"></a>
+                <a  class="linkvideo" href="#">Sengoku Basara last Partyx</a>
+        </div>
+    </div>
+        <nav class="navi">
+        <ul>
+            <li><a style="pointer-events: none; 
+                cursor:not-allowed;">Film</a></li>
+            <li style="float: right;"><a style="padding: 0px;" href="login.php"><button>Login</button></a></li>
+        </ul>
+    </nav>
+
+    .grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, ifr));
+    padding: 20px;
+}
+
+.grid-item{
+    border: 10px;
+    padding: 10px;
+    border-color: white;
+}
+
+.grid-item img{
+    max-width: 20%;
+    height: auto;
+}
+.linkvideo{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 50px;
+}

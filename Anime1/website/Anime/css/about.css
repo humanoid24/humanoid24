@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+  }
+  /*Grup Slide Show*/
+  * {box-sizing: border-box}
+  body {font-family: Verdana, sans-serif; margin:0}
+  .mySlides {display: none}
+  img {vertical-align: middle;
+  height: 200px;
+  width: 1280px;}
+  /* Group Navigation Bar*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(4, 4, 4);
+  }
+
+  
+  
+  
+  
+  
+  
